@@ -303,7 +303,7 @@ tag_archive:
 #     tag: /tags/:name/
 exclude:
   - cv.md
-  - portfolio.html
+  - portfolio/
   - publications.md
   - talks.html
   - teaching.html

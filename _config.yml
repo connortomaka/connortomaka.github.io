@@ -10,7 +10,7 @@ locale                   : "en-US"
 #title                    : #"Connor Tomaka"
 #title_separator          : "-"
 name                     : &name "Connor Tomaka"
-description              : &description #"Booyah"
+description              : &description 
 url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "connortomaka.com"
@@ -301,8 +301,8 @@ tag_archive:
 #   permalinks:
 #     category: /categories/:name/
 #     tag: /tags/:name/
-
-
+exclude:
+  - excludedir/*.html
 # HTML Compression
 # - http://jch.penibelst.de/
 compress_html:

@@ -302,7 +302,12 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 exclude:
-  - excludedir/*.html
+  - cv.md
+  - portfolio.html
+  - publications.md
+  - talks.html
+  - teaching.html
+
 # HTML Compression
 # - http://jch.penibelst.de/
 compress_html:

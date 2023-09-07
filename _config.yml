@@ -7,8 +7,8 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Connor Tomaka"
-title_separator          : "-"
+#title                    : #"Connor Tomaka"
+#title_separator          : "-"
 name                     : &name "Connor Tomaka"
 description              : &description #"Booyah"
 url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -174,7 +174,7 @@ kramdown:
 
 
 # Collections
-collections:
+# collections:
   # teaching:
   #   output: true
   #   permalink: /:collection/:path/
